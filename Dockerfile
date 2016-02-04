@@ -1,5 +1,4 @@
-FROM daocloud.io/php:5.6-cli
+FROM daocloud.io/php:5.3-cli
 
-COPY . /app
 WORKDIR /app
 CMD [ "php", "./hello.php" ]
